@@ -2,21 +2,21 @@
   <main class="sign-up">
     <header class="d-flex justify-content-start p-16">
       <a href="" @click.prevent="$router.go(-1)" class="text-grey-800">
-        <i class="fas fa-arrow-left" size:="7x"></i>
+        <i class="fas fa-arrow-left"></i>
       </a>
     </header>
 
-    <div class="body container">
+    <div class="body container d-flex flex-wrap justify-content-center">
       <!-- Logo will be here -->
       <div class="content">
-        <div class="text-primary">
-          <div class="heading text-grey-100">SIGN UP</div>
+        <div class="text-primary flex-wrap">
+          <div class="heading text-grey-100">SIGN IN</div>
           <p class="content-text mb-32 pl-32 pr-32">
             By creating an account, you agree to our Terms of Service and
             Privacy Policy
           </p>
         </div>
-        <div class="button">
+        <div class="">
           <form>
             <div class="wrapper">
               <i class="far fa-envelope icon"></i>
@@ -33,7 +33,7 @@
               <input
                 id="input-1"
                 class="form-control mb-24"
-                type="name"
+                type="text"
                 required
                 placeholder="Enter Username"
               />
@@ -60,9 +60,9 @@
             </div>
           </form>
           <p class="text-primary">Already have an account?</p>
-          	<router-link to="/login" class="text-secondary">
-									Sign In
-						</router-link>
+          <router-link to="/login" class="text-secondary">
+            Sign In
+          </router-link>
         </div>
       </div>
     </div>
@@ -73,10 +73,10 @@
 export default {
   methods: {
     async register() {
-      this.$router.push("/")
+      this.$router.push("/");
     }
   }
-}
+};
 </script>
 
 <style lang="scss" scoped>
@@ -118,13 +118,21 @@ export default {
   }
 
   .form-control {
-    border-radius: 10px;
-    border: 1px solid #707070;
+    width: 100%;
     height: 50px;
-    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
     padding-left: 43px;
-    // background: rgba(0, 0, 0, 0.45);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     color: #000;
+    // transition: width 0.4s ease-in-out;
   }
 
   .wrapper {
@@ -133,8 +141,9 @@ export default {
 
   .icon {
     position: absolute;
-    left: 60px;
-    top: 18px;
+    left: 15px;
+    top: 17px;
+    color: #484848;
   }
 }
 </style>

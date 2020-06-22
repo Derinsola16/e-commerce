@@ -3,115 +3,82 @@
     <Search />
     <div class="container">
       <Modal />
-      <div class="side">
-        <div class="image-wrapper" @click.prevent="$router.push('/cart')">
-          <div class="mini-card">
-            <div class="inner-wrapper">
-              <img src="@/assets/image2.png" alt="" />
-              <p class="item-name">Wrist Watch</p>
+      <!-- side -->
+      <div class="d-flex flex-wrap justify-content-center">
+        <!-- image-wrapper  -->
+        <!-- <div class="d-flex justify-content-center"> -->
+        <div class="mini-card">
+          <!-- mini-card@click.prevent="$router.push('/cart')"> -->
+          <div class="">
+            <!-- inner-wrapper -->
+            <div class="p-8 flex-fill">
+              <img class="" src="@/assets/image2.png" alt="" />
+              <p class="item-name">Wrist Watch for men</p>
               <p class="item-price">$20.58</p>
             </div>
           </div>
         </div>
-        <div class="image-wrapper">
-          <div class="mini-card">
-            <div class="inner-wrapper">
-              <img src="@/assets/image1.png" alt="" />
-              <p class="item-name">Heels</p>
+        <!-- image-wrapper -->
+        <div class="mini-card">
+          <!-- mini-card -->
+          <div class="">
+            <!-- inner-wrapper -->
+            <div class="p-8 flex-fill">
+              <img class="" src="@/assets/image1.png" alt="" />
+              <p class="item-name">Heels shoe red in color</p>
               <p class="item-price">$20.58</p>
             </div>
           </div>
         </div>
-        <div class="image-wrapper">
-          <div class="mini-card">
-            <div class="inner-wrapper">
-              <img src="@/assets/image9.png" alt="" />
+        <!-- image-wrapper -->
+        <div class="mini-card">
+          <!-- mini-card -->
+          <div class="">
+            <!-- inner-wrapper -->
+            <div class="p-8 flex-fill">
+              <img class="" src="@/assets/image9.png" alt="" />
               <p class="item-name">Gowns</p>
               <p class="item-price">$20.58</p>
             </div>
           </div>
         </div>
-        <div class="image-wrapper">
-          <div class="mini-card">
-            <div class="inner-wrapper">
-              <img src="@/assets/image1.png" alt="" />
-              <p class="item-name">Shoe</p>
+        <!-- image-wrapper -->
+        <div class="mini-card">
+          <!-- mini-card -->
+          <div class="">
+            <!-- inner-wrapper -->
+            <div class="p-8 flex-fill">
+              <img class="" src="@/assets/image6.png" alt="" />
+              <p class="item-name">Gowns</p>
               <p class="item-price">$20.58</p>
             </div>
           </div>
         </div>
-        <div class="image-wrapper">
-          <div class="mini-card">
-            <div class="inner-wrapper">
-              <img src="@/assets/image5.png" alt="" />
-              <p class="item-name">Sneakers</p>
+        <!-- image-wrapper -->
+        <div class="mini-card">
+          <!-- mini-card -->
+          <div class="">
+            <!-- inner-wrapper -->
+            <div class="p-8 flex-fill">
+              <img class="" src="@/assets/image7.png" alt="" />
+              <p class="item-name">Gowns</p>
               <p class="item-price">$20.58</p>
             </div>
           </div>
         </div>
-        <div class="image-wrapper">
-          <div class="mini-card">
-            <div class="inner-wrapper">
-              <img src="@/assets/image1.png" alt="" />
-              <p class="item-name">Red Shoe</p>
+        <!-- image-wrapper -->
+        <div class="mini-card">
+          <!-- mini-card -->
+          <div class="">
+            <!-- inner-wrapper -->
+            <div class="p-8 flex-fill">
+              <img class="" src="@/assets/image5.png" alt="" />
+              <p class="item-name">Short nice Gowns</p>
               <p class="item-price">$20.58</p>
             </div>
           </div>
         </div>
-        <div class="image-wrapper">
-          <div class="mini-card">
-            <div class="inner-wrapper">
-              <img src="@/assets/image7.png" alt="" />
-              <p class="item-name">Headset</p>
-              <p class="item-price">$20.58</p>
-            </div>
-          </div>
-        </div>
-        <div class="image-wrapper">
-          <div class="mini-card">
-            <div class="inner-wrapper">
-              <img src="@/assets/image1.png" alt="" />
-              <p class="item-name">Red Pointed Shoe lace</p>
-              <p class="item-price">$20.58</p>
-            </div>
-          </div>
-        </div>
-        <div class="image-wrapper">
-          <div class="mini-card">
-            <div class="inner-wrapper">
-              <img src="@/assets/image22.png" alt="" />
-              <p class="item-name">Coat</p>
-              <p class="item-price">$20.58</p>
-            </div>
-          </div>
-        </div>
-        <div class="image-wrapper">
-          <div class="mini-card">
-            <div class="inner-wrapper">
-              <img src="@/assets/image6.png" alt="" />
-              <p class="item-name">Shirt</p>
-              <p class="item-price">$20.58</p>
-            </div>
-          </div>
-        </div>
-        <div class="image-wrapper">
-          <div class="mini-card">
-            <div class="inner-wrapper">
-              <img src="@/assets/image29.png" alt="" />
-              <p class="item-name">Dress</p>
-              <p class="item-price">$20.58</p>
-            </div>
-          </div>
-        </div>
-        <div class="image-wrapper">
-          <div class="mini-card">
-            <div class="inner-wrapper">
-              <img src="@/assets/image5.png" alt="" />
-              <p class="item-name">Canvas</p>
-              <p class="item-price">$20.58</p>
-            </div>
-          </div>
-        </div>
+        <!-- </div> -->
       </div>
 
       <!-- <div>
@@ -137,36 +104,26 @@ export default {
 
 <style scoped lang="scss">
 .home {
-  .image-wrapper {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-    // object-fit: cover;
-    // display: flex;
-    // justify-content: space-evenly;
-  }
-
-  .side::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
   .mini-card {
     background-color: #ffffff;
     width: 106.3px;
-    height: 144px;
+    height: 135px;
     border-radius: 8px;
-    padding: 5px;
-    box-shadow: 2px 6px #e7eaf0 !important;
+    margin-bottom: 20px;
+    margin-right: 11.7px;
+    // padding: 5px;
+    box-shadow: 1.5px 3px 15px #e7eaf0 !important;
   }
 
   .item-name {
     padding-top: 16px;
     font-size: 12px;
     text-align: left;
-    color: #3D3D3D;
+    color: #3d3d3d;
     line-height: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .item-price {
@@ -175,7 +132,7 @@ export default {
     width: 31px;
     height: 10px;
     opacity: 100%;
-    color: #3D3D3D;
+    color: #3d3d3d;
     line-height: 15px;
     font-weight: bold;
   }

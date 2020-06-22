@@ -1,7 +1,7 @@
 <template>
   <main class="search">
     <header
-      class="container d-flex justify-content-between py-16 width-100 align-items-center"
+      class="container d-flex flex-wrap justify-content-between py-16 width-100 align-items-center"
     >
       <form action="">
         <div class="wrapper">
@@ -75,7 +75,7 @@ export default {
   }
 
   .form-control:focus {
-    width: 300px;
+    width: auto;
     border: 1px solid #ffb300;
   }
 

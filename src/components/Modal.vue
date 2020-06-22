@@ -1,5 +1,5 @@
 <template>
-  <main class="slider">
+  <main class="slider container">
     <carousel
       :nav="false"
       :margin="15"
@@ -7,6 +7,7 @@
       :loop="true"
       :items="4"
       :autoplay="true"
+      :dots="true"
     >
       <img src="@/assets/image29.png" class="" />
 
@@ -53,25 +54,34 @@ export default {
 
 <style lang="scss" scoped>
 .slider {
-  .carousel-indicators > li {
-    border-radius: 50%;
-    width: 12px;
-    height: 12px;
-    background-color: #ffb300;
-  }
-
   img {
     width: 200px;
     height: 200px;
     object-fit: scale-down;
+    // background: red !important;
   }
 
   // .owl-dot.active {
   //   background-color: #ffb300 !important;
   // }
 
-  .owl-theme .owl-dots .owl-dot span {
-    background: #ffb300 !important;
-  }
+  // .owl-dots.owl-dot span {
+  //   width: 6px !important;
+  //   height: 6px !important;
+  //   margin: 5px 3px !important;
+  //   background: red !important;
+  //   display: block !important;
+  //   // -webkit-backface-visibility: visible;
+  //   transition: opacity 200ms ease !important;
+  //   border-radius: 30px !important;
+  // }
+
+  // .owl-theme .owl-dots .owl-dot.active span,
+  // .owl-theme .owl-dots .owl-dot:hover span {
+  //   background: blue;
+  // }
+  // .owl-theme .owl-dots .owl-dot span {
+  //   background: #ffb300 !important;
+  // }
 }
 </style>

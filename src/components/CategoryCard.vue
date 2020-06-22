@@ -1,177 +1,21 @@
 <template>
   <main class="categoryCard">
     <div class="">
-      <div class="main-card text-primary">
-        <div class="d-flex justify-content-between">
-          <p class="card-head ">MEN’S CLOTHING</p>
-          <p class="card-head text-grey-200"><b>See all</b></p>
-        </div>
-        <div class="side">
-          <div class="image-wrapper">
-            <div class="mini-card">
-              <img src="@/assets/image29.png" alt="" />
-              <p>Gowns</p>
-            </div>
-          </div>
-
-          <div class="image-wrapper">
-            <div class="mini-card">
-              <!-- d-flex justify-content-center mt-8 -->
-              <img src="@/assets/image15.png" alt="" />
-              <p>T-shirt</p>
-            </div>
-          </div>
-
-          <div class="image-wrapper">
-            <div class="mini-card">
-              <!-- d-flex justify-content-center mt-8 -->
-              <img src="@/assets/image22.png" alt="" />
-              <p>Coat</p>
-            </div>
-          </div>
-
-          <div class="image-wrapper">
-            <div class="mini-card">
-              <!-- d-flex justify-content-center mt-8 -->
-              <img src="@/assets/image22.png" alt="" />
-              <p>Coat</p>
-            </div>
-          </div>
-
-          <div class="image-wrapper">
-            <div class="mini-card">
-              <img src="@/assets/image29.png" alt="" />
-              <p>Gowns</p>
-            </div>
-          </div>
-
-          <div class="image-wrapper">
-            <div class="mini-card">
-              <!-- d-flex justify-content-center mt-8 -->
-              <img src="@/assets/image15.png" alt="" />
-              <p>T-shirt</p>
-            </div>
-          </div>
-
-          <div class="image-wrapper">
-            <div class="mini-card">
-              <!-- d-flex justify-content-center mt-8 -->
-              <img src="@/assets/image22.png" alt="" />
-              <p>Coat</p>
-            </div>
-          </div>
-
-          <div class="image-wrapper">
-            <div class="mini-card">
-              <!-- d-flex justify-content-center mt-8 -->
-              <img src="@/assets/image22.png" alt="" />
-              <p>Coat</p>
-            </div>
-          </div>
-
-          <div class="image-wrapper">
-            <div class="mini-card">
-              <!-- d-flex justify-content-center mt-8 -->
-              <img src="@/assets/image22.png" alt="" />
-              <p>Coat</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div class="main-card text-primary mt-8">
-        <div class="d-flex justify-content-between">
-          <p class="card-head ">MEN’S CLOTHING</p>
-          <p class="card-head text-grey-200"><b>See all</b></p>
-        </div>
-        <div class="side">
-          <div class="image-wrapper">
-            <div class="mini-card">
-              <img src="@/assets/image29.png" alt="" />
-              <p>Gowns</p>
-            </div>
-          </div>
-
-          <div class="image-wrapper">
-            <div class="mini-card">
-              <!-- d-flex justify-content-center mt-8 -->
-              <img src="@/assets/image15.png" alt="" />
-              <p>T-shirt</p>
-            </div>
-          </div>
-
-          <div class="image-wrapper">
-            <div class="mini-card">
-              <!-- d-flex justify-content-center mt-8 -->
-              <img src="@/assets/image22.png" alt="" />
-              <p>Coat</p>
-            </div>
-          </div>
-
-          <div class="image-wrapper">
-            <div class="mini-card">
-              <!-- d-flex justify-content-center mt-8 -->
-              <img src="@/assets/image22.png" alt="" />
-              <p>Coat</p>
-            </div>
-          </div>
-
-          <div class="image-wrapper">
-            <div class="mini-card">
-              <img src="@/assets/image29.png" alt="" />
-              <p>Gowns</p>
-            </div>
-          </div>
-
-          <div class="image-wrapper">
-            <div class="mini-card">
-              <!-- d-flex justify-content-center mt-8 -->
-              <img src="@/assets/image15.png" alt="" />
-              <p>T-shirt</p>
-            </div>
-          </div>
-
-          <div class="image-wrapper">
-            <div class="mini-card">
-              <!-- d-flex justify-content-center mt-8 -->
-              <img src="@/assets/image22.png" alt="" />
-              <p>Coat</p>
-            </div>
-          </div>
-
-          <div class="image-wrapper">
-            <div class="mini-card">
-              <!-- d-flex justify-content-center mt-8 -->
-              <img src="@/assets/image22.png" alt="" />
-              <p>Coat</p>
-            </div>
-          </div>
-
-          <div class="image-wrapper">
-            <div class="mini-card">
-              <!-- d-flex justify-content-center mt-8 -->
-              <img src="@/assets/image22.png" alt="" />
-              <p>Coat</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="main-card text-primary mt-8">
-        <div class="d-flex justify-content-between">
+        <div class="d-flex flex-wrap justify-content-between">
           <!-- d-flex  -->
-          <p class="card-head ">MEN’S CLOTHING</p>
+          <p class="card-head">MEN’S CLOTHING</p>
           <p class="card-head text-grey-200"><b>See all</b></p>
         </div>
-        <div class="side">
-          <div class="image-wrapper">
+        <div class="d-flex flex-wrap pl-12">
+          <div class="flex-fill mr-8 mb-4">
             <div class="mini-card">
               <img src="@/assets/image29.png" alt="" />
               <p>Gowns</p>
             </div>
           </div>
 
-          <div class="image-wrapper">
+          <div class="flex-fill mr-8 mb-4">
             <div class="mini-card">
               <!-- d-flex justify-content-center mt-8 -->
               <img src="@/assets/image15.png" alt="" />
@@ -179,7 +23,7 @@
             </div>
           </div>
 
-          <div class="image-wrapper">
+          <div class="flex-fill mr-8 mb-4">
             <div class="mini-card">
               <!-- d-flex justify-content-center mt-8 -->
               <img src="@/assets/image22.png" alt="" />
@@ -187,7 +31,7 @@
             </div>
           </div>
 
-          <div class="image-wrapper">
+          <div class="flex-fill mr-8 mb-4">
             <div class="mini-card">
               <!-- d-flex justify-content-center mt-8 -->
               <img src="@/assets/image22.png" alt="" />
@@ -195,14 +39,14 @@
             </div>
           </div>
 
-          <div class="image-wrapper">
+          <div class="flex-fill mr-8 mb-4">
             <div class="mini-card">
               <img src="@/assets/image29.png" alt="" />
               <p>Gowns</p>
             </div>
           </div>
 
-          <div class="image-wrapper">
+          <div class="flex-fill mr-8 mb-4">
             <div class="mini-card">
               <!-- d-flex justify-content-center mt-8 -->
               <img src="@/assets/image15.png" alt="" />
@@ -210,7 +54,7 @@
             </div>
           </div>
 
-          <div class="image-wrapper">
+          <div class="flex-fill mr-8 mb-4">
             <div class="mini-card">
               <!-- d-flex justify-content-center mt-8 -->
               <img src="@/assets/image22.png" alt="" />
@@ -218,7 +62,7 @@
             </div>
           </div>
 
-          <div class="image-wrapper">
+          <div class="flex-fill mr-8 mb-4">
             <div class="mini-card">
               <!-- d-flex justify-content-center mt-8 -->
               <img src="@/assets/image22.png" alt="" />
@@ -226,7 +70,165 @@
             </div>
           </div>
 
-          <div class="image-wrapper">
+          <div class="flex-fill mr-8 mb-4">
+            <div class="mini-card">
+              <!-- d-flex justify-content-center mt-8 -->
+              <img src="@/assets/image22.png" alt="" />
+              <p>Coat</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-card text-primary mt-8">
+        <div class="d-flex flex-wrap justify-content-between">
+          <!-- d-flex  -->
+          <p class="card-head mb-4">MEN’S CLOTHING</p>
+          <p class="card-head text-grey-200"><b>See all</b></p>
+        </div>
+        <div class="d-flex flex-wrap pl-12">
+          <div class="flex-fill mr-8 mb-4">
+            <div class="mini-card">
+              <img src="@/assets/image29.png" alt="" />
+              <p>Gowns</p>
+            </div>
+          </div>
+
+          <div class="flex-fill mr-8 mb-4">
+            <div class="mini-card">
+              <!-- d-flex justify-content-center mt-8 -->
+              <img src="@/assets/image15.png" alt="" />
+              <p>T-shirt</p>
+            </div>
+          </div>
+
+          <div class="flex-fill mr-8 mb-4">
+            <div class="mini-card">
+              <!-- d-flex justify-content-center mt-8 -->
+              <img src="@/assets/image22.png" alt="" />
+              <p>Coat</p>
+            </div>
+          </div>
+
+          <div class="flex-fill mr-8 mb-4">
+            <div class="mini-card">
+              <!-- d-flex justify-content-center mt-8 -->
+              <img src="@/assets/image22.png" alt="" />
+              <p>Coat</p>
+            </div>
+          </div>
+
+          <div class="flex-fill mr-8 mb-4">
+            <div class="mini-card">
+              <img src="@/assets/image29.png" alt="" />
+              <p>Gowns</p>
+            </div>
+          </div>
+
+          <div class="flex-fill mr-8 mb-4">
+            <div class="mini-card">
+              <!-- d-flex justify-content-center mt-8 -->
+              <img src="@/assets/image15.png" alt="" />
+              <p>T-shirt</p>
+            </div>
+          </div>
+
+          <div class="flex-fill mr-8 mb-4">
+            <div class="mini-card">
+              <!-- d-flex justify-content-center mt-8 -->
+              <img src="@/assets/image22.png" alt="" />
+              <p>Coat</p>
+            </div>
+          </div>
+
+          <div class="flex-fill mr-8 mb-4">
+            <div class="mini-card">
+              <!-- d-flex justify-content-center mt-8 -->
+              <img src="@/assets/image22.png" alt="" />
+              <p>Coat</p>
+            </div>
+          </div>
+
+          <div class="flex-fill mr-8 mb-4">
+            <div class="mini-card">
+              <!-- d-flex justify-content-center mt-8 -->
+              <img src="@/assets/image22.png" alt="" />
+              <p>Coat</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-card text-primary mt-8">
+        <div class="d-flex flex-wrap justify-content-between">
+          <!-- d-flex  -->
+          <p class="card-head mb-4">MEN’S CLOTHING</p>
+          <p class="card-head text-grey-200"><b>See all</b></p>
+        </div>
+        <div class="d-flex flex-wrap pl-12">
+          <div class="flex-fill mr-8 mb-4">
+            <div class="mini-card">
+              <img src="@/assets/image29.png" alt="" />
+              <p>Gowns</p>
+            </div>
+          </div>
+
+          <div class="flex-fill mr-8 mb-4">
+            <div class="mini-card">
+              <!-- d-flex justify-content-center mt-8 -->
+              <img src="@/assets/image15.png" alt="" />
+              <p>T-shirt</p>
+            </div>
+          </div>
+
+          <div class="flex-fill mr-8 mb-4">
+            <div class="mini-card">
+              <!-- d-flex justify-content-center mt-8 -->
+              <img src="@/assets/image22.png" alt="" />
+              <p>Coat</p>
+            </div>
+          </div>
+
+          <div class="flex-fill mr-8 mb-4">
+            <div class="mini-card">
+              <!-- d-flex justify-content-center mt-8 -->
+              <img src="@/assets/image22.png" alt="" />
+              <p>Coat</p>
+            </div>
+          </div>
+
+          <div class="flex-fill mr-8 mb-4">
+            <div class="mini-card">
+              <img src="@/assets/image29.png" alt="" />
+              <p>Gowns</p>
+            </div>
+          </div>
+
+          <div class="flex-fill mr-8 mb-4">
+            <div class="mini-card">
+              <!-- d-flex justify-content-center mt-8 -->
+              <img src="@/assets/image15.png" alt="" />
+              <p>T-shirt</p>
+            </div>
+          </div>
+
+          <div class="flex-fill mr-8 mb-4">
+            <div class="mini-card">
+              <!-- d-flex justify-content-center mt-8 -->
+              <img src="@/assets/image22.png" alt="" />
+              <p>Coat</p>
+            </div>
+          </div>
+
+          <div class="flex-fill mr-8 mb-4">
+            <div class="mini-card">
+              <!-- d-flex justify-content-center mt-8 -->
+              <img src="@/assets/image22.png" alt="" />
+              <p>Coat</p>
+            </div>
+          </div>
+
+          <div class="flex-fill mr-8 mb-4">
             <div class="mini-card">
               <!-- d-flex justify-content-center mt-8 -->
               <img src="@/assets/image22.png" alt="" />
